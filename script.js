@@ -13,7 +13,6 @@ const getPoke = (id) => {
 function fetchPokemons(number){
     for (let i = 1; i <= number; i++) {
         getPoke(i)
-        
     }
 }
 
@@ -31,7 +30,7 @@ function createPokemon(pokemon){
 
     const number = document.createElement('p')
     number.classList.add('number')
-    number.textContent = `No. ${pokemon.id.toString().padStart(3, 0)}`
+    number.textContent = `No. ${pokemon.id}`
 
     const name = document.createElement('p')
     name.classList.add('name')
@@ -54,12 +53,7 @@ function createPokemon(pokemon){
     nombrePoke.appendChild(card)
 }
 
-fetchPokemons(250)
-
-
-
-
-
+fetchPokemons(25)
 
 // 'use strict'
 

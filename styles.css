@@ -1,5 +1,7 @@
 body{
-    background-color: #80cbc4;
+    background-image: url('img/HaLFGX.jpg');
+    background-attachment: fixed;
+    background-size: cover;
     padding: 0%;
     margin: 5%;
     margin-top: 0%;
@@ -44,10 +46,10 @@ body pre {
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 .abilities{
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
