@@ -46,7 +46,8 @@ h2{
     top: 125px;
 }
 
-h3{
+#losFavoritos{
+    background-color: #ffcb05;
     font-size: 1.5rem;
     font-weight: lighter;
     margin: 0;
@@ -61,7 +62,7 @@ h3{
     grid-column-gap: 0;
     grid-row-gap: 15px;
     justify-items: center;
-    margin-top: 20px;
+    margin-top: 30px;
     padding: 200px 0px 0px 0px;
     position: absolute;
     width: 100%;
