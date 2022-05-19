@@ -1,3 +1,119 @@
-h1 {
-    color: red;
+body{
+    background-image: url('../img/background.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 18px;
+    height: 1910;
+    margin: 0;
+    padding: 0;
+    width: 428;
 }
+
+header{
+    display: flex;
+    font-weight: bold;
+    height: 25vh;
+    justify-content: center;
+    width: 100vw;
+}
+
+#logoPokemon{
+    display: flex;
+    position: absolute;
+    top: 20px;
+}
+
+header #logoPokemon img{
+    align-content: center;
+    justify-content: center;
+    object-fit: contain;
+    width: 300px;
+}
+
+#pokeDex{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: bold;
+    justify-content: center;
+    margin: 0;
+    position: absolute;
+    top: 125px;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-weight: lighter;
+    margin: 0;
+    position: absolute;
+    top: 175px;
+}
+
+#cuadricula {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(10, 1fr);
+    grid-column-gap: 0;
+    grid-row-gap: 15px;
+    justify-items: center;
+    margin-top: 20px;
+    padding: 200px 0px 0px 0px;
+    position: absolute;
+    width: 100%;
+}
+
+#cuadricula article{
+    /* align-items: center; */
+    /* background-color: rgb(125, 127, 231); */
+    border-radius: 20%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    height: 140px;
+    width: 350px;
+}
+
+
+
+#poke1{
+    background-color: rgb(114, 59, 59);
+}
+#poke2{
+    background-color: rgb(114, 59, 59);
+}
+#poke3{
+    background-color: rgb(114, 59, 59);
+}
+#poke3{
+    background-color: rgb(114, 59, 59);
+}
+#poke4{
+    background-color: rgb(114, 59, 59);
+}
+#poke5{
+    background-color: rgb(114, 59, 59);
+}
+#poke6{
+    background-color: rgb(114, 59, 59);
+}
+#poke7{
+    background-color: rgb(114, 59, 59);
+}
+#poke8{
+    background-color: rgb(114, 59, 59);
+}
+#poke9{
+    background-color: rgb(114, 59, 59);
+}
+#poke10{
+    background-color: rgb(114, 59, 59);
+}
+
+
+
+
+
