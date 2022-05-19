@@ -70,7 +70,7 @@ h3{
 #cuadricula article{
     /* align-items: center; */
     /* background-color: rgb(125, 127, 231); */
-    border-radius: 20%;
+    border-radius: 30px;
     display: flex;
     /* flex-wrap: wrap; */
     height: 140px;
@@ -81,34 +81,34 @@ h3{
     background-color: rgb(114, 59, 59);
 }
 #poke2{
-    background-color: rgb(114, 59, 59);
+    background-color: rgb(131, 154, 117);
 }
 #poke3{
-    background-color: rgb(114, 59, 59);
+    background-color: rgb(247, 231, 139);
 }
 #poke3{
-    background-color: rgb(114, 59, 59);
+    background-color: rgb(130, 116, 220);
 }
 #poke4{
-    background-color: rgb(114, 59, 59);
+    background-color: rgb(135, 46, 46);
 }
 #poke5{
-    background-color: rgb(114, 59, 59);
+    background-color: rgb(164, 115, 89);
 }
 #poke6{
-    background-color: rgb(114, 59, 59);
+    background-color: rgb(201, 87, 131);
 }
 #poke7{
-    background-color: rgb(114, 59, 59);
+    background-color: rgb(167, 122, 206);
 }
 #poke8{
-    background-color: rgb(114, 59, 59);
+    background-color: rgb(124, 150, 238);
 }
 #poke9{
-    background-color: rgb(114, 59, 59);
+    background-color: rgb(202, 237, 131);
 }
 #poke10{
-    background-color: rgb(114, 59, 59);
+    background-color: rgb(49, 118, 238);
 }
 
 
