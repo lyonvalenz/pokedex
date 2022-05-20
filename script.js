@@ -10,12 +10,6 @@ const getPoke = (id) => {
     });
 }
 
-function fetchPokemons(number){
-    for (let i = 1; i <= number; i++) {
-        getPoke(i)
-    }
-}
-
 function createPokemon(pokemon){
     const card = document.createElement ('div')
     card.classList.add('pokemon-block')
@@ -34,7 +28,7 @@ function createPokemon(pokemon){
 
     const name = document.createElement('p')
     name.classList.add('name')
-    name.textContent = pokemon.name
+    name.textContent = `Nombre: ${pokemon.name}`
 
     const weight = document.createElement('p')
     weight.classList.add('weight')
@@ -53,8 +47,17 @@ function createPokemon(pokemon){
     nombrePoke.appendChild(card)
 }
 
-fetchPokemons(25)
+function fetchPokemons(number){
+    for (let i = 1; i <= number; i++) {
+        getPoke(i)
+    }
+}
 
+setTimeout(() => {
+    return fetchPokemons(250)
+}, 2000);
+
+//-------------------------------------------
 // 'use strict'
 
 

@@ -1,19 +1,38 @@
 body{
-    background-image: url('img/HaLFGX.jpg');
-    background-attachment: fixed;
-    background-size: cover;
     padding: 0%;
     margin: 5%;
     margin-top: 0%;
+    font-family: 'Roboto Flex', sans-serif;
+    background-image: url(img/poke\ yamilka.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+
 }
-h1{
+header {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}
+header div img{
+    align-content: center;
+    justify-content: center;
+    object-fit: contain;
+    width: 300px;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+/* h1{
     background-color: white;
-    font-family:Arial, Helvetica, sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 150px;
-}
+    width: 15%;
+    font-size: 3rem;
+    padding: 20px 0 20px 0;
+    border: 10px solid;
+} */
 body pre {
     display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -26,30 +45,40 @@ body pre {
     border-radius: 50px;
     justify-content: center;
     align-items: center;
+    border: 10px solid;
 }
 .img-container{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: red;
+    border-radius: 40px 40px 0 0 ;
+
 }
 .number{
     display: flex;
     align-items: center;
     justify-content: center; 
+    background-color: black;
+    color: white;
+    margin-top: 0;
+    font-family: 'Roboto Flex', sans-serif;
 }
 .name{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Roboto Flex', sans-serif;
 }
 .weight{
     display: flex;
     align-items: center;
     justify-content: center;
-
+    font-family: 'Roboto Flex', sans-serif;
 }
 .abilities{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Roboto Flex', sans-serif;
 }
